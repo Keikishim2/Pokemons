@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 1px ridge maroon;
+}
+#wrapper{
+    width: 970px;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(9, 9fr);
+    grid-template-rows: minmax(100px, max-content);
+    grid-gap: 10px;
+}
+.container{
+    height: 100px;
+}
